@@ -1,0 +1,21 @@
+# WVS-derived data is never committed: it is recreated locally from the official survey file
+# (data/raw/), which may not be redistributed. Only the question codebook, question metadata
+# and the anonymised human-evaluation labels are tracked.
+data/*
+!data/codebook.json
+!data/question_metadata.json
+!data/human_eval/
+
+# Model outputs (downloaded from Hugging Face) and the scores computed from them
+results/
+
+# Trained adapters
+outputs/adapters/
+
+# Local environment and secrets
+.venv/
+.env
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/

@@ -1,0 +1,170 @@
+stratum,split,subgroup,label,respondents,samples,included,stratum_coverage
+sex,train,Female,Female,1088,214,True,1.0
+sex,train,Male,Male,924,214,True,1.0
+age_group,train,16-24 years,16-24 years,160,214,True,1.0
+age_group,train,25-34 years,25-34 years,355,214,True,1.0
+age_group,train,35-44 years,35-44 years,374,214,True,1.0
+age_group,train,45-54 years,45-54 years,380,214,True,1.0
+age_group,train,55-64 years,55-64 years,381,214,True,1.0
+age_group,train,65 and over,65 and over,362,214,True,1.0
+ethnicity,train,SG: Chinese,Chinese,1549,214,True,0.981610337972167
+ethnicity,train,SG: Malay,Malay,236,214,True,0.981610337972167
+ethnicity,train,"SG: South Asian Indian, Pakistan, etc.",South Asian,190,214,True,0.981610337972167
+ethnicity,train,SG: Others,Others,21,,False,0.981610337972167
+ethnicity,train,SG: Eurasian,Eurasian,10,,False,0.981610337972167
+ethnicity,train,SG: Caucasian white,Caucasian,6,,False,0.981610337972167
+religion,train,Buddhist,Buddhist,525,214,True,0.9990059642147118
+religion,train,Do not belong to a denomination,No Denomination,472,214,True,0.9990059642147118
+religion,train,Protestant,Protestant,347,214,True,0.9990059642147118
+religion,train,Muslim,Muslim,275,214,True,0.9990059642147118
+religion,train,Other,Other,154,214,True,0.9990059642147118
+religion,train,Roman Catholic,Roman Catholic,126,214,True,0.9990059642147118
+religion,train,Hindu,Hindu,111,214,True,0.9990059642147118
+religion,train,Jew,Jew,2,,False,0.9990059642147118
+sex_x_age,train,Female_16-24 years,Female_16-24,76,214,True,1.0
+sex_x_age,train,Female_25-34 years,Female_25-34,174,214,True,1.0
+sex_x_age,train,Female_35-44 years,Female_35-44,230,214,True,1.0
+sex_x_age,train,Female_45-54 years,Female_45-54,208,214,True,1.0
+sex_x_age,train,Female_55-64 years,Female_55-64,207,214,True,1.0
+sex_x_age,train,Female_65 and over,Female_65+,193,214,True,1.0
+sex_x_age,train,Male_16-24 years,Male_16-24,84,214,True,1.0
+sex_x_age,train,Male_25-34 years,Male_25-34,181,214,True,1.0
+sex_x_age,train,Male_35-44 years,Male_35-44,144,214,True,1.0
+sex_x_age,train,Male_45-54 years,Male_45-54,172,214,True,1.0
+sex_x_age,train,Male_55-64 years,Male_55-64,174,214,True,1.0
+sex_x_age,train,Male_65 and over,Male_65+,169,214,True,1.0
+sex_x_ethnicity,train,Female_SG: Chinese,Female_Chinese,846,214,True,0.981610337972167
+sex_x_ethnicity,train,Male_SG: Chinese,Male_Chinese,703,214,True,0.981610337972167
+sex_x_ethnicity,train,Female_SG: Malay,Female_Malay,125,214,True,0.981610337972167
+sex_x_ethnicity,train,Male_SG: Malay,Male_Malay,111,214,True,0.981610337972167
+sex_x_ethnicity,train,"Female_SG: South Asian Indian, Pakistan, etc.",Female_South Asian,98,214,True,0.981610337972167
+sex_x_ethnicity,train,"Male_SG: South Asian Indian, Pakistan, etc.",Male_South Asian,92,214,True,0.981610337972167
+sex_x_ethnicity,train,Female_SG: Others,Female_Others,14,,False,0.981610337972167
+sex_x_ethnicity,train,Male_SG: Others,Male_Others,7,,False,0.981610337972167
+sex_x_ethnicity,train,Male_SG: Eurasian,Male_Eurasian,6,,False,0.981610337972167
+sex_x_ethnicity,train,Male_SG: Caucasian white,Male_Caucasian,5,,False,0.981610337972167
+sex_x_ethnicity,train,Female_SG: Eurasian,Female_Eurasian,4,,False,0.981610337972167
+sex_x_ethnicity,train,Female_SG: Caucasian white,Female_Caucasian,1,,False,0.981610337972167
+sex_x_religion,train,Female_Buddhist,Female_Buddhist,292,214,True,0.9990059642147118
+sex_x_religion,train,Male_Do not belong to a denomination,Male_No Rel.,240,214,True,0.9990059642147118
+sex_x_religion,train,Male_Buddhist,Male_Buddhist,233,214,True,0.9990059642147118
+sex_x_religion,train,Female_Do not belong to a denomination,Female_No Rel.,232,214,True,0.9990059642147118
+sex_x_religion,train,Female_Protestant,Female_Protestant,217,214,True,0.9990059642147118
+sex_x_religion,train,Female_Muslim,Female_Muslim,146,214,True,0.9990059642147118
+sex_x_religion,train,Male_Protestant,Male_Protestant,130,214,True,0.9990059642147118
+sex_x_religion,train,Male_Muslim,Male_Muslim,129,214,True,0.9990059642147118
+sex_x_religion,train,Female_Other,Female_Other,80,214,True,0.9990059642147118
+sex_x_religion,train,Male_Other,Male_Other,74,214,True,0.9990059642147118
+sex_x_religion,train,Female_Roman Catholic,Female_Roman Cath.,66,214,True,0.9990059642147118
+sex_x_religion,train,Male_Roman Catholic,Male_Roman Cath.,60,214,True,0.9990059642147118
+sex_x_religion,train,Male_Hindu,Male_Hindu,57,214,True,0.9990059642147118
+sex_x_religion,train,Female_Hindu,Female_Hindu,54,214,True,0.9990059642147118
+sex_x_religion,train,Female_Jew,Female_Jew,1,,False,0.9990059642147118
+sex_x_religion,train,Male_Jew,Male_Jew,1,,False,0.9990059642147118
+age_x_ethnicity,eval_ood_subgroup,65 and over_SG: Chinese,65+_Chinese,308,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,55-64 years_SG: Chinese,55-64_Chinese,306,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,45-54 years_SG: Chinese,45-54_Chinese,299,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,35-44 years_SG: Chinese,35-44_Chinese,271,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,25-34 years_SG: Chinese,25-34_Chinese,252,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,16-24 years_SG: Chinese,16-24_Chinese,113,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,25-34 years_SG: Malay,25-34_Malay,56,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,"35-44 years_SG: South Asian Indian, Pakistan, etc.",35-44_Indian,51,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,55-64 years_SG: Malay,55-64_Malay,46,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,"25-34 years_SG: South Asian Indian, Pakistan, etc.",25-34_Indian,44,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,35-44 years_SG: Malay,35-44_Malay,41,214,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,45-54 years_SG: Malay,45-54_Malay,37,212,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,"45-54 years_SG: South Asian Indian, Pakistan, etc.",45-54_Indian,37,208,True,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,65 and over_SG: Malay,65+_Malay,29,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,16-24 years_SG: Malay,16-24_Malay,27,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,"55-64 years_SG: South Asian Indian, Pakistan, etc.",55-64_Indian,22,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,"65 and over_SG: South Asian Indian, Pakistan, etc.",65+_Indian,19,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,"16-24 years_SG: South Asian Indian, Pakistan, etc.",16-24_Indian,17,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,35-44 years_SG: Others,35-44_Others,8,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,45-54 years_SG: Others,45-54_Others,4,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,35-44 years_SG: Eurasian,35-44_Eurasian,3,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,45-54 years_SG: Caucasian white,45-54_Caucasian,3,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,55-64 years_SG: Others,55-64_Others,3,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,65 and over_SG: Others,65+_Others,3,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,16-24 years_SG: Eurasian,16-24_Eurasian,2,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,25-34 years_SG: Others,25-34_Others,2,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,55-64 years_SG: Caucasian white,55-64_Caucasian,2,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,55-64 years_SG: Eurasian,55-64_Eurasian,2,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,65 and over_SG: Eurasian,65+_Eurasian,2,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,16-24 years_SG: Others,16-24_Others,1,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,25-34 years_SG: Eurasian,25-34_Eurasian,1,,False,0.9249502982107356
+age_x_ethnicity,eval_ood_subgroup,65 and over_SG: Caucasian white,65+_Caucasian,1,,False,0.9249502982107356
+ethnicity_x_religion,eval_ood_subgroup,SG: Chinese_Buddhist,Chinese_Buddhist,517,214,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Chinese_Do not belong to a denomination,Chinese_No Rel.,451,214,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Chinese_Protestant,Chinese_Protestant,328,214,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Malay_Muslim,Malay_Muslim,227,214,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Chinese_Other,Chinese_Other,149,214,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,"SG: South Asian Indian, Pakistan, etc._Hindu",Indian_Hindu,109,214,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Chinese_Roman Catholic,Chinese_Roman Cath.,95,214,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,"SG: South Asian Indian, Pakistan, etc._Muslim",Indian_Muslim,36,212,True,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,"SG: South Asian Indian, Pakistan, etc._Protestant",Indian_Protestant,15,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,"SG: South Asian Indian, Pakistan, etc._Roman Catholic",Indian_Roman Cath.,14,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,"SG: South Asian Indian, Pakistan, etc._Do not belong to a denomination",Indian_No Rel.,10,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Chinese_Muslim,Chinese_Muslim,8,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Others_Roman Catholic,Others_Roman Cath.,8,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Eurasian_Roman Catholic,Eurasian_Roman Cath.,7,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Malay_Do not belong to a denomination,Malay_No Rel.,7,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Others_Buddhist,Others_Buddhist,6,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,"SG: South Asian Indian, Pakistan, etc._Other",Indian_Other,5,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Others_Muslim,Others_Muslim,3,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Others_Protestant,Others_Protestant,3,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Caucasian white_Do not belong to a denomination,Caucasian_No Rel.,2,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Caucasian white_Roman Catholic,Caucasian_Roman Cath.,2,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Caucasian white_Jew,Caucasian_Jew,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Caucasian white_Protestant,Caucasian_Protestant,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Chinese_Hindu,Chinese_Hindu,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Eurasian_Do not belong to a denomination,Eurasian_No Rel.,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Eurasian_Jew,Eurasian_Jew,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Eurasian_Muslim,Eurasian_Muslim,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Malay_Buddhist,Malay_Buddhist,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Malay_Hindu,Malay_Hindu,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,SG: Others_Do not belong to a denomination,Others_No Rel.,1,,False,0.9502982107355865
+ethnicity_x_religion,eval_ood_subgroup,"SG: South Asian Indian, Pakistan, etc._Buddhist",Indian_Buddhist,1,,False,0.9502982107355865
+age_x_religion,eval_ood_subgroup,45-54 years_Buddhist,45-54_Buddhist,115,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,65 and over_Buddhist,65+_Buddhist,115,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,25-34 years_Do not belong to a denomination,25-34_No Rel.,106,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Buddhist,55-64_Buddhist,100,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,35-44 years_Buddhist,35-44_Buddhist,91,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,35-44 years_Do not belong to a denomination,35-44_No Rel.,91,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,45-54 years_Do not belong to a denomination,45-54_No Rel.,85,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Do not belong to a denomination,55-64_No Rel.,84,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Protestant,55-64_Protestant,79,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,25-34 years_Buddhist,25-34_Buddhist,77,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,45-54 years_Protestant,45-54_Protestant,69,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,65 and over_Protestant,65+_Protestant,67,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,25-34 years_Muslim,25-34_Muslim,64,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,65 and over_Do not belong to a denomination,65+_No Rel.,63,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Muslim,55-64_Muslim,51,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,25-34 years_Protestant,25-34_Protestant,50,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,35-44 years_Muslim,35-44_Muslim,49,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,35-44 years_Protestant,35-44_Protestant,49,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,65 and over_Other,65+_Other,44,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Do not belong to a denomination,16-24_No Rel.,43,214,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,45-54 years_Muslim,45-54_Muslim,40,213,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,35-44 years_Hindu,35-44_Hindu,37,206,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,65 and over_Muslim,65+_Muslim,36,213,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Muslim,16-24_Muslim,35,203,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Protestant,16-24_Protestant,33,203,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Other,55-64_Other,32,179,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,35-44 years_Other,35-44_Other,31,196,True,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Buddhist,16-24_Buddhist,27,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,35-44 years_Roman Catholic,35-44_Roman Cath.,26,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Roman Catholic,55-64_Roman Cath.,26,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,65 and over_Roman Catholic,65+_Roman Cath.,26,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,25-34 years_Hindu,25-34_Hindu,25,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,45-54 years_Hindu,45-54_Hindu,25,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,45-54 years_Other,45-54_Other,25,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,45-54 years_Roman Catholic,45-54_Roman Cath.,21,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,25-34 years_Roman Catholic,25-34_Roman Cath.,18,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,25-34 years_Other,25-34_Other,15,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,65 and over_Hindu,65+_Hindu,11,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Roman Catholic,16-24_Roman Cath.,9,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Hindu,55-64_Hindu,8,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Other,16-24_Other,7,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Hindu,16-24_Hindu,5,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,16-24 years_Jew,16-24_Jew,1,,False,0.8628230616302187
+age_x_religion,eval_ood_subgroup,55-64 years_Jew,55-64_Jew,1,,False,0.8628230616302187

@@ -1,0 +1,29 @@
+\begin{tabular}{l|cc|cc|cc|cc|cc}
+\toprule
+\multirow{3}{*}{\textbf{Model}} & \multicolumn{4}{c|}{\textbf{Structured Numerical Eval}} & \multicolumn{6}{c}{\textbf{Open-Ended Eval Win Rate \% vs. GPT-4.1 (↑)}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-11}
+& \multicolumn{2}{c|}{\textbf{Accuracy (↑)}} & \multicolumn{2}{c|}{\textbf{NMAE (↓)}} & \multicolumn{2}{c|}{\textbf{Persona WR}} & \multicolumn{2}{c|}{\textbf{Value WR}} & \multicolumn{2}{c}{\textbf{Overall WR}} \\
+& \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} \\
+\midrule
+\multicolumn{11}{l}{\textit{Open-Source Models}} \\
+\midrule
+Llama-3.1-8B & .512 & .694 (+.182) & .264 & .144 (-.120) & .306 & .305 (-.001) & .338 & .382 (+.044) & .293 & .328 (+.035) \\
+Llama-3.2-3B & .441 & .526 (+.085) & .326 & .234 (-.092) & .240 & .250 (+.010) & .279 & .279 (+.000) & .225 & .233 (+.008) \\
+SEA-LION-v3-8B & .538 & .658 (+.120) & .221 & .154 (-.067) & .479 & .459 (-.020) & .415 & .427 (+.012) & .427 & .429 (+.002) \\
+Phi-4-mini & .431 & .461 (+.030) & .269 & .257 (-.012) & .120 & .107 (-.013) & .283 & .275 (-.008) & .159 & .146 (-.013) \\
+Qwen2.5-7B & .437 & .680 (+.243) & .248 & .151 (-.097) & .208 & .218 (+.010) & .288 & .324 (+.036) & .213 & .243 (+.030) \\
+Sailor2-8B & .356 & .745 (+.389) & .336 & .114 (-.222) & .160 & .158 (-.002) & .341 & .427 (+.086) & .203 & .236 (+.033) \\
+SeaLLMs-v3-7B & .453 & .710 (+.257) & .256 & .131 (-.125) & .044 & .038 (-.006) & .202 & .216 (+.014) & .075 & .080 (+.005) \\
+\midrule
+\textbf{Average} & \underline{.453} & \underline{.639} (\underline{+.186}) & \underline{.274} & \underline{.169} (\underline{-.105}) & \underline{.222} & \underline{.219} (\underline{-.003}) & \underline{.307} & \underline{.333} (\underline{+.026}) & \underline{.228} & \underline{.242} (\underline{+.014}) \\
+\midrule
+\multicolumn{11}{l}{\textit{Closed-Source Models (Reference)}} \\
+\midrule
+GPT-4.1 & .567 & -- & .190 & -- & .500 & -- & .500 & -- & .500 & -- \\
+GPT-4o & .561 & -- & .194 & -- & .359 & -- & .419 & -- & .366 & -- \\
+GPT-4.1-mini & .530 & -- & .204 & -- & .365 & -- & .419 & -- & .364 & -- \\
+GPT-4o-mini & .498 & -- & .218 & -- & .293 & -- & .380 & -- & .296 & -- \\
+\midrule
+\textbf{Average} & \underline{.539} & -- & \underline{.201} & -- & \underline{.379} & -- & \underline{.430} & -- & \underline{.381} & -- \\
+\bottomrule
+\end{tabular}

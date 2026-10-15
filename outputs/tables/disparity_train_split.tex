@@ -1,0 +1,29 @@
+\begin{tabular}{l|cc|cc|cc|cc}
+\toprule
+\multirow{3}{*}{\textbf{Model}} & \multicolumn{4}{c|}{\textbf{Accuracy Disparity (↓)}} & \multicolumn{4}{c}{\textbf{NMAE Disparity (↓)}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9}
+& \multicolumn{2}{c|}{\textbf{Norm. Range}} & \multicolumn{2}{c|}{\textbf{CV}} & \multicolumn{2}{c|}{\textbf{Norm. Range}} & \multicolumn{2}{c}{\textbf{CV}} \\
+& \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} \\
+\midrule
+\multicolumn{9}{l}{\textit{Open-Source Models}} \\
+\midrule
+Llama-3.1-8B & .129 & .086 (-.043) & .049 & .029 (-.020) & .159 & .218 (+.059) & .056 & .081 (+.025) \\
+Llama-3.2-3B & .099 & .094 (-.005) & .035 & .036 (+.001) & .124 & .163 (+.039) & .042 & .060 (+.018) \\
+SEA-LION-v3-8B & .121 & .122 (+.001) & .044 & .046 (+.002) & .197 & .269 (+.072) & .074 & .107 (+.033) \\
+Phi-4-mini & .155 & .177 (+.022) & .059 & .065 (+.006) & .120 & .162 (+.042) & .047 & .059 (+.012) \\
+Qwen2.5-7B & .140 & .096 (-.044) & .047 & .033 (-.014) & .186 & .243 (+.057) & .065 & .095 (+.030) \\
+Sailor2-8B & .188 & .092 (-.096) & .078 & .032 (-.046) & .131 & .300 (+.169) & .048 & .120 (+.072) \\
+SeaLLMs-v3-7B & .151 & .109 (-.042) & .058 & .039 (-.019) & .173 & .272 (+.099) & .066 & .115 (+.049) \\
+\midrule
+\textbf{Average} & \underline{.140} & \underline{.111} (\underline{-.029}) & \underline{.053} & \underline{.040} (\underline{-.013}) & \underline{.156} & \underline{.232} (\underline{+.076}) & \underline{.057} & \underline{.091} (\underline{+.034}) \\
+\midrule
+\multicolumn{9}{l}{\textit{Closed-Source Models (Reference)}} \\
+\midrule
+GPT-4.1 & .113 & -- & .037 & -- & .211 & -- & .075 & -- \\
+GPT-4o & .113 & -- & .039 & -- & .188 & -- & .065 & -- \\
+GPT-4.1-mini & .107 & -- & .039 & -- & .154 & -- & .053 & -- \\
+GPT-4o-mini & .161 & -- & .057 & -- & .208 & -- & .073 & -- \\
+\midrule
+\textbf{Average} & \underline{.123} & -- & \underline{.043} & -- & \underline{.190} & -- & \underline{.066} & -- \\
+\bottomrule
+\end{tabular}

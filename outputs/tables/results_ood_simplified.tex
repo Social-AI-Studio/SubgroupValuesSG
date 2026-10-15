@@ -1,0 +1,29 @@
+\begin{tabular}{l|cc|cc|cc|cc|cc}
+\toprule
+\multirow{3}{*}{\textbf{Model}} & \multicolumn{4}{c|}{\textbf{Structured Numerical Eval}} & \multicolumn{6}{c}{\textbf{Open-Ended Eval Win Rate (WR) \% vs. GPT-4.1 (↑)}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-11}
+& \multicolumn{2}{c|}{\textbf{Accuracy (↑)}} & \multicolumn{2}{c|}{\textbf{NMAE (↓)}} & \multicolumn{2}{c|}{\textbf{Persona WR}} & \multicolumn{2}{c|}{\textbf{Value WR}} & \multicolumn{2}{c}{\textbf{Overall WR}} \\
+& \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} & \textbf{Base} & \textbf{SFT} \\
+\midrule
+\multicolumn{11}{l}{\textit{Open-Source Models}} \\
+\midrule
+Llama-3.1-8B \citeyearpar{IntroducingLlama312024} & .514 & .685 (+.171) & .258 & .143 (-.115) & .314 & .309 (-.005) & .332 & .364 (+.032) & .294 & .320 (+.026) \\
+Llama-3.2-3B \citeyearpar{Llama32Revolutionizing2024a} & .442 & .508 (+.066) & .308 & .238 (-.070) & .252 & .253 (+.001) & .274 & .273 (-.001) & .230 & .234 (+.004) \\
+SEA-LION-v3-8B \citeyearpar{ngSEALIONSoutheastAsian2025} & \textbf{.530} & .642 (+.112) & \textbf{.222} & .158 (-.064) & \textbf{.493} & \textbf{.472} (-.021) & \textbf{.408} & \textbf{.420} (+.012) & \textbf{.428} & \textbf{.430} (+.002) \\
+Phi-4-mini \citeyearpar{microsoftPhi4miniTechnicalReport2025} & .427 & .456 (+.029) & .267 & .256 (-.011) & .148 & .130 (-.018) & .273 & .264 (-.009) & .175 & .161 (-.014) \\
+Qwen2.5-7B \citeyearpar{qwenQwen25TechnicalReport2025} & .442 & .661 (+.219) & .243 & .157 (-.086) & .227 & .231 (+.004) & .286 & .311 (+.025) & .223 & .246 (+.023) \\
+Sailor2-8B \citeyearpar{douSailor2SailingSoutheast2025} & .356 & \textbf{.720} (\textbf{+.364}) & .332 & \textbf{.125} (\textbf{-.207}) & .190 & .197 (\textbf{+.007}) & .338 & \textbf{.420} (\textbf{+.082}) & .217 & .255 (\textbf{+.038}) \\
+SeaLLMs-v3-7B \citeyearpar{zhangSeaLLMs3Open2025} & .440 & .696 (+.256) & .256 & .135 (-.121) & .056 & .044 (-.012) & .190 & .202 (+.012) & .082 & .081 (-.001) \\
+\midrule
+\textbf{Average} & \underline{.450} & \underline{.624} (\underline{+.174}) & \underline{.269} & \underline{.173} (\underline{-.096}) & \underline{.240} & \underline{.234} (\underline{-.006}) & \underline{.300} & \underline{.322} (\underline{+.022}) & \underline{.236} & \underline{.247} (\underline{+.011}) \\
+\midrule
+\multicolumn{11}{l}{\textit{Closed-Source Models}} \\
+\midrule
+GPT-4.1 \citeyearpar{IntroducingGPT41API2024} & \textbf{.574} & -- & \textbf{.182} & -- & \textbf{.500} & -- & \textbf{.500} & -- & \textbf{.500} & -- \\
+GPT-4o \citeyearpar{HelloGPT4o2024} & .565 & -- & .189 & -- & .371 & -- & .415 & -- & .370 & -- \\
+GPT-4.1-mini \citeyearpar{IntroducingGPT41API2024} & .530 & -- & .198 & -- & .391 & -- & .421 & -- & .380 & -- \\
+GPT-4o-mini \citeyearpar{HelloGPT4o2024} & .490 & -- & .217 & -- & .307 & -- & .382 & -- & .310 & -- \\
+\midrule
+\textbf{Average} & \underline{.540} & -- & \underline{.196} & -- & \underline{.392} & -- & \underline{.429} & -- & \underline{.390} & -- \\
+\bottomrule
+\end{tabular}

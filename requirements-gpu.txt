@@ -1,0 +1,10 @@
+# Generation (03_generate.py) and training (LLaMA-Factory), as used in the paper. Needs CUDA GPUs.
+-r requirements.txt
+torch==2.6.0
+transformers==4.51.1
+peft==0.15.2
+datasets==3.2.0
+vllm==0.8.5.post1
+llamafactory==0.9.3
+openai==1.60.1
+python-dotenv

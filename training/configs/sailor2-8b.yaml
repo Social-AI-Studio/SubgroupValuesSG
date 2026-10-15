@@ -1,0 +1,46 @@
+# LoRA SFT of sail/Sailor2-8B-Chat
+# Released adapter: https://huggingface.co/Incomple/Sailor2-8B-Chat_sft_sg_values
+# Trained on 1 GPU (effective batch size 8). Run from the repository root:
+#   CUDA_VISIBLE_DEVICES=0 llamafactory-cli train training/configs/sailor2-8b.yaml
+
+### model
+model_name_or_path: sail/Sailor2-8B-Chat
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_target: all
+
+### dataset
+dataset_dir: training
+dataset: sft_sg_values
+template: qwen
+cutoff_len: 2048
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: outputs/adapters/Sailor2-8B-Chat_sft_sg_values
+logging_steps: 0.05
+save_strategy: epoch
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-6
+num_train_epochs: 1.0
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+eval_dataset: sft_sg_values_eval
+per_device_eval_batch_size: 2
+eval_strategy: steps
+eval_steps: 250

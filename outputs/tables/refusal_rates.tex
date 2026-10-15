@@ -1,0 +1,37 @@
+\begin{tabular}{l|cc}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multicolumn{2}{c}{\textbf{Refusal Rate (Count / Total)}} \\
+\cmidrule(lr){2-3}
+& \textbf{Train Split} & \textbf{OOD Split} \\
+\midrule
+\multicolumn{3}{l}{\textit{Open-Source Models (Base $\rightarrow$ SFT)}} \\
+\midrule
+Llama-3.1-8B & 0.27\% $\rightarrow$ 0.22\% & 0.18\% $\rightarrow$ 0.11\% \\
+ & \scriptsize{(29/10700) $\rightarrow$ (24/10700)} & \scriptsize{(18/10177) $\rightarrow$ (11/10177)} \\
+\midrule
+Llama-3.2-3B & 6.66\% $\rightarrow$ 0.00\% & 4.86\% $\rightarrow$ 0.00\% \\
+ & \scriptsize{(713/10700) $\rightarrow$ (0/10700)} & \scriptsize{(495/10177) $\rightarrow$ (0/10177)} \\
+\midrule
+SEA-LION-v3 & 0.00\% $\rightarrow$ 0.00\% & 0.00\% $\rightarrow$ 0.00\% \\
+ & \scriptsize{(0/10700) $\rightarrow$ (0/10700)} & \scriptsize{(0/10177) $\rightarrow$ (0/10177)} \\
+\midrule
+Phi-4-mini & 0.00\% $\rightarrow$ 0.00\% & 0.00\% $\rightarrow$ 0.00\% \\
+ & \scriptsize{(0/10700) $\rightarrow$ (0/10700)} & \scriptsize{(0/10177) $\rightarrow$ (0/10177)} \\
+\midrule
+Qwen2.5-7B & 0.00\% $\rightarrow$ 0.00\% & 0.00\% $\rightarrow$ 0.00\% \\
+ & \scriptsize{(0/10700) $\rightarrow$ (0/10700)} & \scriptsize{(0/10177) $\rightarrow$ (0/10177)} \\
+\midrule
+Sailor2-8B & 1.70\% $\rightarrow$ 0.00\% & 1.68\% $\rightarrow$ 0.00\% \\
+ & \scriptsize{(182/10700) $\rightarrow$ (0/10700)} & \scriptsize{(171/10177) $\rightarrow$ (0/10177)} \\
+\midrule
+SeaLLMs-v3 & 0.00\% $\rightarrow$ 0.00\% & 0.00\% $\rightarrow$ 0.00\% \\
+ & \scriptsize{(0/10700) $\rightarrow$ (0/10700)} & \scriptsize{(0/10177) $\rightarrow$ (0/10177)} \\
+\midrule
+\multicolumn{3}{l}{\textit{Closed-Source Models (Base Performance)}} \\
+\midrule
+GPT-4.1 & 0.02\% \scriptsize{(2/10700)} & 0.00\% \scriptsize{(0/10177)} \\
+GPT-4o & 0.00\% \scriptsize{(0/10700)} & 0.00\% \scriptsize{(0/10177)} \\
+GPT-4.1-mini & 0.00\% \scriptsize{(0/10700)} & 0.00\% \scriptsize{(0/10177)} \\
+GPT-4o-mini & 0.00\% \scriptsize{(0/10700)} & 0.00\% \scriptsize{(0/10177)} \\
+\bottomrule
+\end{tabular}

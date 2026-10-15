@@ -1,0 +1,5 @@
+# Keep generated tables byte-for-byte as written (no line-ending conversion), so that
+# verify.py checksums match on every platform.
+outputs/** -text
+checksums.sha256 -text
+*.sh text eol=lf

@@ -1,0 +1,54 @@
+\begin{tabular}{@{}l l | c | c@{}}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\textbf{Metric}} & \multicolumn{2}{c}{\textbf{Perf. Disparity (Base $\rightarrow$ SFT)}} \\
+\cmidrule(lr){3-4}
+& & \textbf{Norm. Range (↓)} & \textbf{CV (↓)} \\
+\midrule
+\multirow{2}{*}{Llama-3.1-8B}
+ & Acc. & \textbf{.174} $\rightarrow$ .188 & \textbf{.056} $\rightarrow$ .054 \\
+ & NMAE & .250 $\rightarrow$ .426 & .085 $\rightarrow$ .133 \\
+\midrule
+\multirow{2}{*}{Llama-3.2-3B}
+ & Acc. & .226 $\rightarrow$ .165 & .066 $\rightarrow$ .051 \\
+ & NMAE & .272 $\rightarrow$ .260 & .082 $\rightarrow$ .087 \\
+\midrule
+\multirow{2}{*}{SEA-LION-v3}
+ & Acc. & .203 $\rightarrow$ .202 & .066 $\rightarrow$ .060 \\
+ & NMAE & .353 $\rightarrow$ .399 & .127 $\rightarrow$ .135 \\
+\midrule
+\multirow{2}{*}{Phi-4-mini}
+ & Acc. & .239 $\rightarrow$ .257 & .075 $\rightarrow$ .075 \\
+ & NMAE & .243 $\rightarrow$ \textbf{.256} & .077 $\rightarrow$ \textbf{.083} \\
+\midrule
+\multirow{2}{*}{Qwen2.5-7B}
+ & Acc. & .256 $\rightarrow$ .169 & .089 $\rightarrow$ .055 \\
+ & NMAE & .318 $\rightarrow$ .352 & .108 $\rightarrow$ .135 \\
+\midrule
+\multirow{2}{*}{Sailor2-8B}
+ & Acc. & .305 $\rightarrow$ .145 & .101 $\rightarrow$ .044 \\
+ & NMAE & \textbf{.228} $\rightarrow$ .343 & \textbf{.068} $\rightarrow$ .129 \\
+\midrule
+\multirow{2}{*}{SeaLLMs-v3}
+ & Acc. & .276 $\rightarrow$ \textbf{.124} & .094 $\rightarrow$ \textbf{.037} \\
+ & NMAE & .294 $\rightarrow$ .318 & .108 $\rightarrow$ .111 \\
+\midrule
+\multirow{2}{*}{\textbf{Average}}
+ & Acc. & \underline{.240} $\rightarrow$ \underline{.179} & \underline{.078} $\rightarrow$ \underline{.054} \\
+ & NMAE & \underline{.280} $\rightarrow$ \underline{.336} & \underline{.094} $\rightarrow$ \underline{.116} \\
+\bottomrule
+\end{tabular}
+
+\begin{tabular}{l c c c c}
+\toprule
+\multirow{2}{*}{\textbf{Closed-Source}} & \multicolumn{2}{c}{\textbf{Acc. Disparity (↓)}} & \multicolumn{2}{c}{\textbf{NMAE Disparity (↓)}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+& \textbf{Norm. Range} & \textbf{CV} & \textbf{Norm. Range} & \textbf{CV} \\
+\midrule
+GPT-4.1 & .193 & .060 & .368 & .127 \\
+GPT-4o & \textbf{.161} & \textbf{.048} & \textbf{.295} & \textbf{.099} \\
+GPT-4.1-mini & .204 & .067 & .338 & .115 \\
+GPT-4o-mini & .298 & .100 & .329 & .126 \\
+\midrule
+\textbf{Average} & \underline{.214} & \underline{.069} & \underline{.333} & \underline{.117} \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,14 @@
+split,stratum,subgroups,samples
+train,sex_x_religion,14,2996
+train,sex_x_age,12,2568
+train,religion,7,1498
+train,age_group,6,1284
+train,sex_x_ethnicity,6,1284
+train,ethnicity,3,642
+train,sex,2,428
+train,Total,50,10700
+eval_ood_subgroup,age_x_religion,27,5693
+eval_ood_subgroup,age_x_ethnicity,13,2774
+eval_ood_subgroup,ethnicity_x_religion,8,1710
+eval_ood_subgroup,Total,48,10177
+all,Grand Total,98,20877
